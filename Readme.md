@@ -10,7 +10,7 @@ npm install --save @aspnet/signalr-client
 
 add to csproj
 
-``xml
+```xml
 
   <Target Name="CopyFiles" BeforeTargets="Publish">
     <Exec Command="npm install" />

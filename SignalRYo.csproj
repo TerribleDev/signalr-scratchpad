@@ -14,6 +14,6 @@
     <ItemGroup>
       <NpmFiles Include=".\node_modules\@aspnet\signalr-client\dist\browser\*.js" />
     </ItemGroup>
-    <Copy SourceFiles="@(NpmFiles)" DestinationFolder="wwwroot\lib\signalr" />
+    <Copy SourceFiles="@(NpmFiles)" DestinationFolder="Views/wwwroot\lib\signalr" />
   </Target>
 </Project>
